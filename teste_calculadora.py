@@ -51,4 +51,5 @@ class TestCalculadora(unittest.TestCase):
                 x, y, saida = x_y_saida
                 self.assertEqual(subtrai(x, y), saida)
 
-unittest.main(verbosity=2)
+if __name__ == "__main__":
+    unittest.main(verbosity=2)
